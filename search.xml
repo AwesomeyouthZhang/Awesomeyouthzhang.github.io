@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>基本框架已经基本完成，剩下的工作是完善了，后面的路还长。</title>
+      <link href="/2019/11/28/page/"/>
+      <url>/2019/11/28/page/</url>
+      
+        <content type="html"><![CDATA[<p>hexo 框架的主题 分类 导航 标签 关于我 基本设置完成<br>今天写markdown还是出现了点问题，就一句话，路还长，继续学!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello Today</title>
       <link href="/2019/11/28/hello-world/"/>
       <url>/2019/11/28/hello-world/</url>

@@ -594,7 +594,7 @@ header .go-back i {
     font-size: 3rem;
 }
 
-@-webkit-keyframes rainbow {
+/*@-webkit-keyframes rainbow {
 
     0%,
     100% {

@@ -4,11 +4,50 @@
   
     
     <entry>
+      <title>pages</title>
+      <link href="/2019/11/29/pages-2/"/>
+      <url>/2019/11/29/pages-2/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>pages</title>
+      <link href="/2019/11/29/pages-1/"/>
+      <url>/2019/11/29/pages-1/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>pages</title>
+      <link href="/2019/11/29/pages/"/>
+      <url>/2019/11/29/pages/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基本框架已经基本完成，剩下的工作是完善了，后面的路还长。</title>
       <link href="/2019/11/28/page/"/>
       <url>/2019/11/28/page/</url>
       
-        <content type="html"><![CDATA[<p>hexo 框架的主题 分类 导航 标签 关于我 基本设置完成<br>今天写markdown还是出现了点问题，就一句话，路还长，继续学!</p>]]></content>
+        <content type="html"><![CDATA[<p>hexo 框架的主题 分类 导航 标签 关于我 基本设置完成<br>今天写markdown还是出现了点问题，就一句话，路还长，继续学!</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -35,7 +74,7 @@
       <link href="/2019/11/28/hello-world/"/>
       <url>/2019/11/28/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>我的博客将于今天开始,折腾来折腾去终于把Hexo和gitpage建立了联系，更重要是后期如何完善和维护，先睡一觉再说!</p>]]></content>
+        <content type="html"><![CDATA[<p>我的博客将于今天开始,折腾来折腾去终于把Hexo和gitpage建立了联系，更重要是后期如何完善和维护，先睡一觉再说!</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       

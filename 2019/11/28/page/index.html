@@ -6,7 +6,9 @@
     <meta charset="utf-8">
     <meta name="keywords" content="基本框架已经基本完成，剩下的工作是完善了，后面的路还长。, 智贤">
     <meta name="description" content="hexo 框架的主题 分类 导航 标签 关于我 基本设置完成今天写markdown还是出现了点问题，就一句话，路还长，继续学!
-">
+
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+    ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -456,7 +458,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    43
+                    95
                 </div>
                 
 
@@ -480,7 +482,25 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>hexo 框架的主题 分类 导航 标签 关于我 基本设置完成<br>今天写markdown还是出现了点问题，就一句话，路还长，继续学!</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1007,18 +1027,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/11/30/%E5%BB%BA%E7%AB%99/">
+                <a href="/2019/11/30/article-title/">
                     <div class="card-image">
                         
-                        <img src="/images/8.jpg" class="responsive-img" alt="建站小记">
                         
-                        <span class="card-title">建站小记</span>
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
+                        
+                        <span class="card-title">article title</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            闲聊一波
+                            验证下toc怎么用1234🤣/**renm x//*
+/多行注释的内容[^ Vanline]: sss
+111[^valine]: ddddd
+
+        document.querySelectorAll('.github-emo
                         
                     </div>
                     <div class="publish-info">
@@ -1027,31 +1052,11 @@
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E9%97%B2%E8%81%8A/" class="post-category">
-                                    闲聊
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            智贤
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E9%97%B2%E8%81%8A/">
-                        <span class="chip bg-color">闲聊</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                        <span class="chip bg-color">学习</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%88%9D%E5%BF%83/">
-                        <span class="chip bg-color">初心</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -1077,6 +1082,8 @@
                         
                             我的博客将于今天开始,折腾来折腾去终于把Hexo和gitpage建立了联系，更重要是后期如何完善和维护，先睡一觉再说!
 
+        document.querySelectorAll('.github-emoji')
+        
                         
                     </div>
                     <div class="publish-info">
@@ -1143,7 +1150,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">624</span>&nbsp;字
+                class="white-color">850</span>&nbsp;字
             
             
             

@@ -6,7 +6,9 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Hellow Today, 智贤">
     <meta name="description" content="我的博客将于今天开始,折腾来折腾去终于把Hexo和gitpage建立了联系，更重要是后期如何完善和维护，先睡一觉再说!
-">
+
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+        ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -528,7 +530,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    45
+                    97
                 </div>
                 
 
@@ -552,7 +554,25 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>我的博客将于今天开始,折腾来折腾去终于把Hexo和gitpage建立了联系，更重要是后期如何完善和维护，先睡一觉再说!</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1138,6 +1158,8 @@
                         
                             我的博客将于今天开始,折腾来折腾去终于把Hexo和gitpage建立了联系，更重要是后期如何完善和维护，先睡一觉再说!
 
+        document.querySelectorAll('.github-emoji')
+        
                         
                     </div>
                     <div class="publish-info">
@@ -1299,7 +1321,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">624</span>&nbsp;字
+                class="white-color">850</span>&nbsp;字
             
             
             

@@ -556,7 +556,7 @@
     $(function () {
         let coverSlider = $('.carousel');
         coverSlider.carousel({
-            duration: Number('4000'),
+            duration: Number('120'),
             fullWidth: true,
             indicators: 'true' === 'true'
         });
@@ -567,7 +567,7 @@
         let autoCarousel = function() {
             carouselIntervalId = setInterval(function () {
                 coverSlider.carousel('next');
-            }, 4000);
+            }, 5000);
         };
         autoCarousel();
         

@@ -172,7 +172,7 @@ code {
     z-index: 1;
     filter: invert(50%);
     cursor: pointer;
-} 
+}
 
 .code-expand {
     position: absolute;
@@ -248,7 +248,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #00FA9A);
+    background-image: linear-gradient(to right,#29bdd9 0%, #276ace 100%);
 }
 
 .text-color {
@@ -256,7 +256,8 @@ mark {
 }
 
 .white-color {
-    color: #fff;
+    color:#e6e2c3;
+    /*总访问量和访问人数的字体*/
 }
 
 .progress-bar {
@@ -264,7 +265,8 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #29bdd9 0%, #276ace 100%);
+    /*背景渐变加进度*/
     opacity: 0.8;
 }
 

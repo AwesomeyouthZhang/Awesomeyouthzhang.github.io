@@ -29,6 +29,33 @@
     
     
     <entry>
+      <title>hexo 中如何插入pdf插件(傻瓜教程)</title>
+      <link href="/2020/02/05/hexo%20%E4%B8%AD%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5pdf%E6%8F%92%E4%BB%B6/"/>
+      <url>/2020/02/05/hexo%20%E4%B8%AD%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5pdf%E6%8F%92%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="hexo-中如何插入pdf插件-傻瓜教程"><a href="#hexo-中如何插入pdf插件-傻瓜教程" class="headerlink" title="hexo 中如何插入pdf插件(傻瓜教程)"></a>hexo 中如何插入pdf插件(傻瓜教程)</h1><p>hexo 官方是支持pdf插件的</p><h1 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h1><p><img src="https://s2.ax1x.com/2020/02/25/3JzZ7V.png" alt="hexo 官网plugin中搜索pdf"></p><p><a href="https://github.com/superalsrk/hexo-pdf/" target="_blank" rel="noopener">点击访问插件GitHub地址</a></p><p><img src="https://s2.ax1x.com/2020/02/25/3JzUhD.png" alt="安装步骤"></p><h3 id="1-在根目录gitbash下输入"><a href="#1-在根目录gitbash下输入" class="headerlink" title="1.在根目录gitbash下输入"></a>1.在根目录gitbash下输入</h3><pre><code>$ npm install --save hexo-pdf</code></pre><h2 id="step-2-如何使用"><a href="#step-2-如何使用" class="headerlink" title="step 2 如何使用"></a>step 2 如何使用</h2><p>我是在source里面创建了个pdf文件夹</p><blockquote><p>因为我主要用的是本地pdf</p></blockquote><p><img src="https://s2.ax1x.com/2020/02/25/3JzOCF.png" alt="source中创建pdf文件夹"></p><blockquote><p>把pdf可以放入一个文件夹中,方便管理</p></blockquote><p><img src="https://s2.ax1x.com/2020/02/25/3YSkCD.png" alt="在md文件中如何添加"></p><p>要使用本地pdf，肯定要知道相对地址</p><p><img src="https://s2.ax1x.com/2020/02/25/3YSr24.png" alt="相对地址"></p><p><img src="https://s2.ax1x.com/2020/02/25/3YpCss.png" alt="效果如此"></p><blockquote><p>同样使用云端pdf也是如此，把地址放进去就行</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 插件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>建站小记</title>
       <link href="/2019/11/30/%E5%BB%BA%E7%AB%99/"/>
       <url>/2019/11/30/%E5%BB%BA%E7%AB%99/</url>

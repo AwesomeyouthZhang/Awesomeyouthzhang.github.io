@@ -22,11 +22,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -57,11 +57,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -92,13 +92,13 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.001 </tag>
             
             <tag> Introduction to Computer Science and Programming in Python </tag>
             
             <tag> python </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -108,8 +108,8 @@
     
     <entry>
       <title>MIT 6.004 Lecture 1</title>
-      <link href="/2020/02/18/Mit%206.004%20L1/"/>
-      <url>/2020/02/18/Mit%206.004%20L1/</url>
+      <link href="/2020/02/18/Mit%206.001%20L1/"/>
+      <url>/2020/02/18/Mit%206.001%20L1/</url>
       
         <content type="html"><![CDATA[<h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1><div class="row">    <embed src="/pdf/L01.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Worksheet"><a href="#Worksheet" class="headerlink" title="Worksheet"></a>Worksheet</h1><div class="row">    <embed src="/pdf/L01.worksheet(1).pdf" width="100%" height="550" type="application/pdf"></div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
@@ -125,11 +125,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -239,9 +239,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       

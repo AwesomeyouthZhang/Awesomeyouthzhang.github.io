@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="MIT 6.004 Lecture 2, 智贤">
+    <meta name="keywords" content="MIT 6.004 Lecture 3, 智贤">
     <meta name="description" content="课件
 
 	
@@ -14,24 +14,9 @@
 
 
 Worksheet
-
-	
-    
-	
-
-
-
-Lab 1
-
-	
-    
-	
-
-
-
-参考RV32I基础整数指令集 - 迈克老狼2012 - 博客园
-RISC-V指令集介绍 - 整数基本指令集
-终于有人把RIS">
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -39,7 +24,7 @@ RISC-V指令集介绍 - 整数基本指令集
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>MIT 6.004 Lecture 2 | 智贤</title>
+    <title>MIT 6.004 Lecture 3 | 智贤</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/2.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -342,13 +327,13 @@ RISC-V指令集介绍 - 整数基本指令集
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/13.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        MIT 6.004 Lecture 2
+                        MIT 6.004 Lecture 3
                     </div>
                 </div>
             </div>
@@ -505,7 +490,7 @@ RISC-V指令集介绍 - 整数基本指令集
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-02-25
+                    2020-02-26
                 </div>
                 
 
@@ -514,7 +499,7 @@ RISC-V指令集介绍 - 整数基本指令集
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    396
+                    55
                 </div>
                 
 
@@ -540,38 +525,12 @@ RISC-V指令集介绍 - 整数基本指令集
                 <h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1>
 
 	<div class="row">
-    <embed src="/pdf/L02.pdf" width="100%" height="550" type="application/pdf">
+    <embed src="/pdf/L03.pdf" width="100%" height="550" type="application/pdf">
 	</div>
 
 
 
-<h1 id="Worksheet"><a href="#Worksheet" class="headerlink" title="Worksheet"></a>Worksheet</h1>
-
-	<div class="row">
-    <embed src="/pdf/L02.worksheet.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1 id="Lab-1"><a href="#Lab-1" class="headerlink" title="Lab 1"></a>Lab 1</h1>
-
-	<div class="row">
-    <embed src="/pdf/Lab1Handout.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/link?url=9bZUTAs8d9idTiTYFk9RE_UBNI4UB4LcYXz_zOWQo9COYNFj6cfj7gDbn47RDT0L9lcXbo6z9c1Nlsv7ttFf9q&amp;wd=&amp;eqid=85cb483300014fe3000000065e4ca837" target="_blank" rel="noopener">RV32I基础整数指令集 - 迈克老狼2012 - 博客园</a></p>
-<p><a href="https://blog.csdn.net/zhangshuaiisme/article/details/80718496" target="_blank" rel="noopener"><strong>RISC-V指令集介绍 - 整数基本指令集</strong></a></p>
-<p>终于有人把RISC-V讲明白了</p>
-<p>[来自] (<a href="http://m.elecfans.com/article/653167.html" target="_blank" rel="noopener">http://m.elecfans.com/article/653167.html</a>)</p>
-<p>RISC-V RV32I中零寄存器有什么用？</p>
-<p><a href="https://www.zhihu.com/question/308314026/answer/573831395" target="_blank" rel="noopener">来自</a></p>
-<p><strong>32位常量</strong></p>
-<p>之前用ARM的处理器，ARM都是将立即数表示不下的常量存到常量池，然后用PC相关的LDR指令加载到寄存器的。RISC-V的常量完全是用指令拼接的，不需要Load指令，要知道使用Load指令是需要额外的访问周期的。RISC-V单条指令可以表示12位的有符号常量，超过12位需要两条指令来合成。其中一条指令是lui，lui指令加载常量的高20位，低12位可以用addi指令加上去，当然了这个过程又要麻烦编译器仔细算一算立即数到底是什么了，因为addi指令执行的是有符号加法，其中的12位立即数是会先被符号扩展成32位的有符号数再参与计算的。ARM的常量加载需要8个字节，一条指令+一个常量；RISC-V的常量加载也是需要8个字节，两条指令。占用的程序空间是一样的。</p>
-<p><strong>只有小于和大于</strong></p>
-<p><a href="https://blog.csdn.net/zoomdy/article/details/79343941" target="_blank" rel="noopener">来自</a></p>
-<script>
+<h1 id="Worksheet"><a href="#Worksheet" class="headerlink" title="Worksheet"></a>Worksheet</h1><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -614,7 +573,7 @@ RISC-V指令集介绍 - 整数基本指令集
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://awesomeyouthzhang.github.io/2020/02/25/Mit%206.004%20L2/">https://awesomeyouthzhang.github.io/2020/02/25/Mit%206.004%20L2/</a>
+                    <a href="https://awesomeyouthzhang.github.io/2020/02/26/Mit%206.004%20L3/">https://awesomeyouthzhang.github.io/2020/02/26/Mit%206.004%20L3/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -844,7 +803,7 @@ RISC-V指令集介绍 - 整数基本指令集
         repo: 'gitalk',
         owner: 'AwesomeyouthZhang',
         admin: "AwesomeyouthZhang",
-        id: '2020-02-25T14-05-00',
+        id: '2020-02-26T21-13-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1128,9 +1087,10 @@ RISC-V指令集介绍 - 整数基本指令集
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/02/26/Mit%206.004%20L3/">
                     <div class="card-image">
@@ -1147,9 +1107,9 @@ RISC-V指令集介绍 - 整数基本指令集
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-02-26
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1162,6 +1122,7 @@ RISC-V指令集介绍 - 整数基本指令集
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1200,12 +1161,12 @@ RISC-V指令集介绍 - 整数基本指令集
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/02/18/Mit%206.004%20L1/">
+                <a href="/2020/02/25/Mit%206.004%20L2/">
                     <div class="card-image">
                         
-                        <img src="/images/10.jpg" class="responsive-img" alt="MIT 6.004 Lecture 1">
+                        <img src="/images/12.jpg" class="responsive-img" alt="MIT 6.004 Lecture 2">
                         
-                        <span class="card-title">MIT 6.004 Lecture 1</span>
+                        <span class="card-title">MIT 6.004 Lecture 2</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1216,7 +1177,7 @@ RISC-V指令集介绍 - 整数基本指令集
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-18
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-25
                             </span>
                         <span class="publish-author">
                             

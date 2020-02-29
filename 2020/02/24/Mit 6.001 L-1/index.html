@@ -4,11 +4,19 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="基本框架已经基本完成，剩下的工作是完善了，后面的路还长。, 智贤">
-    <meta name="description" content="hexo 框架的主题 分类 导航 标签 关于我 基本设置完成今天写markdown还是出现了点问题，就一句话，路还长，继续学!
+    <meta name="keywords" content="MIT 6.001 Lecture 1, 智贤">
+    <meta name="description" content="课件
+
+	
+    
+	
+
+
+
 
         document.querySelectorAll(&#39;.github-emoji&#39;)
-    ">
+          .forEach(el =&gt; {
+            if (!el.datas">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +24,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>基本框架已经基本完成，剩下的工作是完善了，后面的路还长。 | 智贤</title>
+    <title>MIT 6.001 Lecture 1 | 智贤</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/2.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -306,7 +314,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -319,13 +327,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/31.jpeg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        基本框架已经基本完成，剩下的工作是完善了，后面的路还长。
+                        MIT 6.001 Lecture 1
                     </div>
                 </div>
             </div>
@@ -336,10 +344,99 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -348,12 +445,24 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/MIT/">
+                                <span class="chip bg-color">MIT</span>
                             </a>
                         
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                                <span class="chip bg-color">学习</span>
+                            <a href="/tags/6-001/">
+                                <span class="chip bg-color">6.001</span>
+                            </a>
+                        
+                            <a href="/tags/Introduction-to-Computer-Science-and-Programming-in-Python/">
+                                <span class="chip bg-color">Introduction to Computer Science and Programming in Python</span>
+                            </a>
+                        
+                            <a href="/tags/python/">
+                                <span class="chip bg-color">python</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">笔记</span>
                             </a>
                         
                     </div>
@@ -364,8 +473,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                学习
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                学习笔记
                             </a>
                         
                     </div>
@@ -377,7 +486,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-11-28
+                    2020-02-24
                 </div>
                 
 
@@ -386,7 +495,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    95
+                    54
                 </div>
                 
 
@@ -409,7 +518,14 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>hexo 框架的主题 分类 导航 标签 关于我 基本设置完成<br>今天写markdown还是出现了点问题，就一句话，路还长，继续学!</p>
+                <h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1>
+
+	<div class="row">
+    <embed src="/pdf/MIT6_0001F16_Lec1.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -453,7 +569,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://awesomeyouthzhang.github.io/2019/11/28/page/">https://awesomeyouthzhang.github.io/2019/11/28/page/</a>
+                    <a href="https://awesomeyouthzhang.github.io/2020/02/24/Mit%206.001%20L-1/">https://awesomeyouthzhang.github.io/2020/02/24/Mit%206.001%20L-1/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -491,12 +607,24 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/MIT/">
+                                    <span class="chip bg-color">MIT</span>
                                 </a>
                             
-                                <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                                    <span class="chip bg-color">学习</span>
+                                <a href="/tags/6-001/">
+                                    <span class="chip bg-color">6.001</span>
+                                </a>
+                            
+                                <a href="/tags/Introduction-to-Computer-Science-and-Programming-in-Python/">
+                                    <span class="chip bg-color">Introduction to Computer Science and Programming in Python</span>
+                                </a>
+                            
+                                <a href="/tags/python/">
+                                    <span class="chip bg-color">python</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">笔记</span>
                                 </a>
                             
                         </div>
@@ -667,7 +795,7 @@
         repo: 'gitalk',
         owner: 'AwesomeyouthZhang',
         admin: "AwesomeyouthZhang",
-        id: '2019-11-28T20-13-30',
+        id: '2020-02-24T15-03-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -955,30 +1083,30 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/11/30/%E5%BB%BA%E7%AB%99/">
+                <a href="/2020/02/25/Mit%206.004%20L2/">
                     <div class="card-image">
                         
-                        <img src="/images/8.jpg" class="responsive-img" alt="建站小记">
+                        <img src="/images/12.jpg" class="responsive-img" alt="MIT 6.004 Lecture 2">
                         
-                        <span class="card-title">建站小记</span>
+                        <span class="card-title">MIT 6.004 Lecture 2</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            闲聊一波
+                            Computer structure
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-11-30
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-02-25
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E9%97%B2%E8%81%8A/" class="post-category">
-                                    闲聊
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    学习笔记
                                 </a>
                             
                             
@@ -988,16 +1116,28 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                        <span class="chip bg-color">学习</span>
+                    <a href="/tags/MIT/">
+                        <span class="chip bg-color">MIT</span>
                     </a>
                     
-                    <a href="/tags/%E9%97%B2%E8%81%8A/">
-                        <span class="chip bg-color">闲聊</span>
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
                     </a>
                     
-                    <a href="/tags/%E5%88%9D%E5%BF%83/">
-                        <span class="chip bg-color">初心</span>
+                    <a href="/tags/6-004/">
+                        <span class="chip bg-color">6.004</span>
+                    </a>
+                    
+                    <a href="/tags/computer-structure/">
+                        <span class="chip bg-color">computer structure</span>
+                    </a>
+                    
+                    <a href="/tags/risc-v/">
+                        <span class="chip bg-color">risc-v</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/">
+                        <span class="chip bg-color">汇编语言</span>
                     </a>
                     
                 </div>
@@ -1011,35 +1151,63 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/11/28/hello-world/">
+                <a href="/2020/02/18/Mit%206.004%20L1/">
                     <div class="card-image">
                         
+                        <img src="/images/10.jpg" class="responsive-img" alt="MIT 6.004 Lecture 1">
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Hellow Today">
-                        
-                        <span class="card-title">Hellow Today</span>
+                        <span class="card-title">MIT 6.004 Lecture 1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            我的博客将于今天开始,折腾来折腾去终于把Hexo和gitpage建立了联系，更重要是后期如何完善和维护，先睡一觉再说!
-
-        document.querySelectorAll('.github-emoji')
-        
+                            Computer structure
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-18
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            智贤
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    学习笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/MIT/">
+                        <span class="chip bg-color">MIT</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
+                    </a>
+                    
+                    <a href="/tags/6-004/">
+                        <span class="chip bg-color">6.004</span>
+                    </a>
+                    
+                    <a href="/tags/computer-structure/">
+                        <span class="chip bg-color">computer structure</span>
+                    </a>
+                    
+                    <a href="/tags/risc-v/">
+                        <span class="chip bg-color">risc-v</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/">
+                        <span class="chip bg-color">汇编语言</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1075,6 +1243,100 @@
 <style type="text/css">
 code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
 </style>
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h1, h2, h3, h4, h5'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 

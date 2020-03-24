@@ -514,7 +514,7 @@ RISC-V指令集介绍 - 整数基本指令集
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    396
+                    344
                 </div>
                 
 
@@ -561,7 +561,7 @@ RISC-V指令集介绍 - 整数基本指令集
 
 
 
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/link?url=9bZUTAs8d9idTiTYFk9RE_UBNI4UB4LcYXz_zOWQo9COYNFj6cfj7gDbn47RDT0L9lcXbo6z9c1Nlsv7ttFf9q&amp;wd=&amp;eqid=85cb483300014fe3000000065e4ca837" target="_blank" rel="noopener">RV32I基础整数指令集 - 迈克老狼2012 - 博客园</a></p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.baidu.com/link?url=9bZUTAs8d9idTiTYFk9RE_UBNI4UB4LcYXz_zOWQo9COYNFj6cfj7gDbn47RDT0L9lcXbo6z9c1Nlsv7ttFf9q&wd=&eqid=85cb483300014fe3000000065e4ca837" target="_blank" rel="noopener">RV32I基础整数指令集 - 迈克老狼2012 - 博客园</a></p>
 <p><a href="https://blog.csdn.net/zhangshuaiisme/article/details/80718496" target="_blank" rel="noopener"><strong>RISC-V指令集介绍 - 整数基本指令集</strong></a></p>
 <p>终于有人把RISC-V讲明白了</p>
 <p>[来自] (<a href="http://m.elecfans.com/article/653167.html" target="_blank" rel="noopener">http://m.elecfans.com/article/653167.html</a>)</p>
@@ -571,25 +571,7 @@ RISC-V指令集介绍 - 整数基本指令集
 <p>之前用ARM的处理器，ARM都是将立即数表示不下的常量存到常量池，然后用PC相关的LDR指令加载到寄存器的。RISC-V的常量完全是用指令拼接的，不需要Load指令，要知道使用Load指令是需要额外的访问周期的。RISC-V单条指令可以表示12位的有符号常量，超过12位需要两条指令来合成。其中一条指令是lui，lui指令加载常量的高20位，低12位可以用addi指令加上去，当然了这个过程又要麻烦编译器仔细算一算立即数到底是什么了，因为addi指令执行的是有符号加法，其中的12位立即数是会先被符号扩展成32位的有符号数再参与计算的。ARM的常量加载需要8个字节，一条指令+一个常量；RISC-V的常量加载也是需要8个字节，两条指令。占用的程序空间是一样的。</p>
 <p><strong>只有小于和大于</strong></p>
 <p><a href="https://blog.csdn.net/zoomdy/article/details/79343941" target="_blank" rel="noopener">来自</a></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
             </div>
             <hr/>
 
@@ -1401,7 +1383,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.7k</span>&nbsp;字
+                class="white-color">2k</span>&nbsp;字
             
             
             

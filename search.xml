@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>MIT 6.004 Lecture 5</title>
+      <link href="/2020/03/24/MIT6.004%20L5/"/>
+      <url>/2020/03/24/MIT6.004%20L5/</url>
+      
+        <content type="html"><![CDATA[<h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1><div class="row">    <embed src="/pdf/L04.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Worksheet-A-3-24-UPDATE"><a href="#Worksheet-A-3-24-UPDATE" class="headerlink" title="Worksheet A 3.24 UPDATE"></a>Worksheet A 3.24 UPDATE</h1><div class="row">    <embed src="/pdf/L04A.worksheet.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Worksheet-B-3-24-UPDATE"><a href="#Worksheet-B-3-24-UPDATE" class="headerlink" title="Worksheet B 3.24 UPDATE"></a>Worksheet B 3.24 UPDATE</h1><div class="row">    <embed src="/pdf/L04B.worksheet.pdf" width="100%" height="550" type="application/pdf"></div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MIT </tag>
+            
+            <tag> 6.004 </tag>
+            
+            <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> risc-v </tag>
+            
+            <tag> 汇编语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MIT 6.001 Lecture 3</title>
       <link href="/2020/03/24/MIT%206.001L-3/"/>
       <url>/2020/03/24/MIT%206.001L-3/</url>
@@ -73,8 +108,8 @@
     
     <entry>
       <title>MIT 6.001 Lecture 2</title>
-      <link href="/2020/03/05/MIT%206.001L-2%20/"/>
-      <url>/2020/03/05/MIT%206.001L-2%20/</url>
+      <link href="/2020/03/05/MIT%206.001L2/"/>
+      <url>/2020/03/05/MIT%206.001L2/</url>
       
         <content type="html"><![CDATA[<h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1><div class="row">    <embed src="/pdf/MIT6_0001F16_Lec2.pdf" width="100%" height="550" type="application/pdf"></div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       

@@ -4,11 +4,46 @@
   
     
     <entry>
-      <title>MIT 6.004 Lecture 5</title>
-      <link href="/2020/03/24/MIT6.004%20L5/"/>
-      <url>/2020/03/24/MIT6.004%20L5/</url>
+      <title>MIT 6.004 Lecture 6</title>
+      <link href="/2020/04/02/MIT6.004%20L5/"/>
+      <url>/2020/04/02/MIT6.004%20L5/</url>
       
-        <content type="html"><![CDATA[<h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1><div class="row">    <embed src="/pdf/L05.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Reading"><a href="#Reading" class="headerlink" title="Reading"></a>Reading</h1><div class="row">    <embed src="/pdf/L5_Reading.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Worksheet"><a href="#Worksheet" class="headerlink" title="Worksheet"></a>Worksheet</h1>]]></content>
+        <content type="html"><![CDATA[<h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1><div class="row">    <embed src="/pdf/L06.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Reading"><a href="#Reading" class="headerlink" title="Reading"></a>Reading</h1><div class="row">    <embed src="/pdf/.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Worksheet"><a href="#Worksheet" class="headerlink" title="Worksheet"></a>Worksheet</h1><div class="row">    <embed src="/pdf/L06.worksheet.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MIT </tag>
+            
+            <tag> 6.004 </tag>
+            
+            <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> Digital design </tag>
+            
+            <tag> 数电 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MIT 6.004 Lecture 5</title>
+      <link href="/2020/03/24/MIT6.004%20L6/"/>
+      <url>/2020/03/24/MIT6.004%20L6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1><div class="row">    <embed src="/pdf/L05.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Reading"><a href="#Reading" class="headerlink" title="Reading"></a>Reading</h1><div class="row">    <embed src="/pdf/L5_Reading.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Worksheet-4-2-UPDATED"><a href="#Worksheet-4-2-UPDATED" class="headerlink" title="Worksheet 4.2 UPDATED"></a>Worksheet 4.2 UPDATED</h1><div class="row">    <embed src="/pdf/L05.worksheet.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
       
       
       <categories>
@@ -375,9 +410,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       

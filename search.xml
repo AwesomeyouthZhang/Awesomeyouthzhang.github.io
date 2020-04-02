@@ -22,11 +22,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> Digital design </tag>
             
@@ -59,11 +59,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> Digital design </tag>
             
@@ -94,11 +94,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> Digital design </tag>
             
@@ -129,13 +129,13 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.001 </tag>
             
             <tag> Introduction to Computer Science and Programming in Python </tag>
             
             <tag> python </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -162,11 +162,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -197,13 +197,13 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.001 </tag>
             
             <tag> Introduction to Computer Science and Programming in Python </tag>
             
             <tag> python </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -230,11 +230,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -265,11 +265,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -300,13 +300,13 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.001 </tag>
             
             <tag> Introduction to Computer Science and Programming in Python </tag>
             
             <tag> python </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -333,11 +333,11 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
-            
-            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -418,9 +418,9 @@
       
         <tags>
             
-            <tag> 闲聊 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 闲聊 </tag>
             
             <tag> 初心 </tag>
             

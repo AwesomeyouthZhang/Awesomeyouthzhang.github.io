@@ -4,6 +4,43 @@
   
     
     <entry>
+      <title>MIT 6.004 Lecture 7</title>
+      <link href="/2020/04/02/MIT6.004-L07/"/>
+      <url>/2020/04/02/MIT6.004-L07/</url>
+      
+        <content type="html"><![CDATA[<h1 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h1><div class="row">    <embed src="/pdf/L07.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="Reading"><a href="#Reading" class="headerlink" title="Reading"></a>Reading</h1><div class="row">    <embed src="/pdf/6.004" width="100%" height="550" type="application/pdf"></div><h1 id="Worksheet"><a href="#Worksheet" class="headerlink" title="Worksheet"></a>Worksheet</h1><div class="row">    <embed src="/pdf/L07.worksheet.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MIT </tag>
+            
+            <tag> 6.004 </tag>
+            
+            <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> Digital design </tag>
+            
+            <tag> 数电 </tag>
+            
+            <tag> CMOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MIT 6.004 Lecture 6</title>
       <link href="/2020/04/02/MIT6.004%20L5/"/>
       <url>/2020/04/02/MIT6.004%20L5/</url>
@@ -22,11 +59,11 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> Digital design </tag>
             
@@ -57,11 +94,11 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> Digital design </tag>
             
@@ -92,13 +129,13 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.001 </tag>
             
             <tag> Introduction to Computer Science and Programming in Python </tag>
             
             <tag> python </tag>
-            
-            <tag> 笔记 </tag>
             
         </tags>
       
@@ -125,11 +162,11 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -160,13 +197,13 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.001 </tag>
             
             <tag> Introduction to Computer Science and Programming in Python </tag>
             
             <tag> python </tag>
-            
-            <tag> 笔记 </tag>
             
         </tags>
       
@@ -193,11 +230,11 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -228,11 +265,11 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -263,13 +300,13 @@
             
             <tag> MIT </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 6.001 </tag>
             
             <tag> Introduction to Computer Science and Programming in Python </tag>
             
             <tag> python </tag>
-            
-            <tag> 笔记 </tag>
             
         </tags>
       
@@ -296,11 +333,11 @@
             
             <tag> MIT </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> 6.004 </tag>
             
             <tag> computer structure </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> risc-v </tag>
             
@@ -381,9 +418,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 闲聊 </tag>
+            
+            <tag> 学习 </tag>
             
             <tag> 初心 </tag>
             
